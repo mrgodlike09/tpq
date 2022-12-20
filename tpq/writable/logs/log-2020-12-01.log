@@ -1,0 +1,24 @@
+CRITICAL - 2020-12-01 07:59:49 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\tpq\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tpq\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\tpq\app\Models\AbsensiModel.php(61): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 C:\xampp\htdocs\tpq\app\Models\AbsensiModel.php(66): App\Models\AbsensiModel->checkAbsensiHariIni()
+#4 C:\xampp\htdocs\tpq\app\Controllers\Absen.php(30): App\Models\AbsensiModel->tulisAbsen()
+#5 C:\xampp\htdocs\tpq\app\Controllers\Absen.php(18): App\Controllers\Absen->tulisAbsen()
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Absen->index()
+#7 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#8 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-12-01 07:59:51 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tpq\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\tpq\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Absen), true)
+#2 C:\xampp\htdocs\tpq\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tpq\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,13 @@
+CRITICAL - 2020-11-24 06:45:57 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\tpq\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tpq\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\tpq\app\Models\AbsensiModel.php(61): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 C:\xampp\htdocs\tpq\app\Models\AbsensiModel.php(66): App\Models\AbsensiModel->checkAbsensiHariIni()
+#4 C:\xampp\htdocs\tpq\app\Controllers\Absen.php(29): App\Models\AbsensiModel->tulisAbsen()
+#5 C:\xampp\htdocs\tpq\app\Controllers\Absen.php(17): App\Controllers\Absen->tulisAbsen()
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Absen->index()
+#7 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#8 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}

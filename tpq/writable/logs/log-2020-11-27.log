@@ -1,0 +1,132 @@
+CRITICAL - 2020-11-27 15:03:44 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\tpq\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tpq\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\tpq\app\Models\AbsensiModel.php(61): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 C:\xampp\htdocs\tpq\app\Models\AbsensiModel.php(66): App\Models\AbsensiModel->checkAbsensiHariIni()
+#4 C:\xampp\htdocs\tpq\app\Controllers\Absen.php(29): App\Models\AbsensiModel->tulisAbsen()
+#5 C:\xampp\htdocs\tpq\app\Controllers\Absen.php(17): App\Controllers\Absen->tulisAbsen()
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Absen->index()
+#7 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#8 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-11-27 18:31:00 --> Call to undefined function SELECT `nama`, `amanah`, `mulai_mengajar` as `mulai mengajar`, `syahadah`
+FROM `tabel_ust`()
+#0 C:\xampp\htdocs\tpq\app\Controllers\Data.php(17): App\Models\DataModel->getDataUst()
+#1 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Data->ustadz()
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-27 18:31:18 --> Call to undefined function SELECT `nama`, `amanah`, `mulai_mengajar` as `mulai mengajar`, `syahadah`
+FROM `tabel_ust`()
+#0 C:\xampp\htdocs\tpq\app\Controllers\Data.php(17): App\Models\DataModel->getDataUst()
+#1 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Data->ustadz()
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-27 18:32:06 --> Call to undefined function SELECT *
+FROM `tabel_ust`()
+#0 C:\xampp\htdocs\tpq\app\Controllers\Data.php(17): App\Models\DataModel->getDataUst()
+#1 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Data->ustadz()
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-27 18:32:07 --> Call to undefined function SELECT *
+FROM `tabel_ust`()
+#0 C:\xampp\htdocs\tpq\app\Controllers\Data.php(17): App\Models\DataModel->getDataUst()
+#1 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Data->ustadz()
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-27 18:37:03 --> Unknown column 'syahadah' in 'field list'
+#0 C:\xampp\htdocs\tpq\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `nama`, ...')
+#1 C:\xampp\htdocs\tpq\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama`, ...')
+#2 C:\xampp\htdocs\tpq\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama`, ...')
+#3 C:\xampp\htdocs\tpq\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `nama`, ...', Array, false)
+#4 C:\xampp\htdocs\tpq\app\Models\DataModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tpq\app\Controllers\Data.php(17): App\Models\DataModel->getDataUst()
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Data->ustadz()
+#7 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-11-27 18:43:08 --> Undefined variable: ust
+#0 C:\xampp\htdocs\tpq\app\Views\pages\data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/data', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Data.php(21): view('pages/data', Array)
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Data->ustadz()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-27 19:47:33 --> Invalid file: pages/data.php
+#0 C:\xampp\htdocs\tpq\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/data.php')
+#1 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/data', Array, true)
+#2 C:\xampp\htdocs\tpq\app\Controllers\ustadz.php(21): view('pages/data', Array)
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Ustadz->index()
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ustadz))
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-27 19:48:04 --> Invalid file: pages/data.php
+#0 C:\xampp\htdocs\tpq\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/data.php')
+#1 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/data', Array, true)
+#2 C:\xampp\htdocs\tpq\app\Controllers\ustadz.php(21): view('pages/data', Array)
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Ustadz->index()
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ustadz))
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-27 19:48:05 --> Invalid file: pages/data.php
+#0 C:\xampp\htdocs\tpq\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/data.php')
+#1 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/data', Array, true)
+#2 C:\xampp\htdocs\tpq\app\Controllers\ustadz.php(21): view('pages/data', Array)
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Ustadz->index()
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ustadz))
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-27 20:03:08 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('components/side...', Array, true)
+#1 C:\xampp\htdocs\tpq\app\Controllers\Ustadz.php(21): view('components/side...', Array)
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Ustadz->index()
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ustadz))
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-27 20:03:26 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('components/side...', Array, true)
+#1 C:\xampp\htdocs\tpq\app\Controllers\Ustadz.php(21): view('components/side...', Array)
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Ustadz->index()
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ustadz))
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-27 20:06:05 --> Undefined variable: active
+#0 C:\xampp\htdocs\tpq\app\Views\components\sidebar.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('components/side...', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Absen.php(23): view('components/side...')
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Absen->index()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

@@ -1,0 +1,216 @@
+CRITICAL - 2020-09-28 00:58:39 --> Cannot call constructor
+#0 C:\xampp\htdocs\tpq\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\tpq\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-28 01:07:31 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-28 01:31:18 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\tpq\app\Controllers\Home.php(15): App\Models\AbsensiModel->getAbsensi()
+#1 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-28 01:34:02 --> Access level to App\Models\AbsensiModel::$db must be protected (as in class CodeIgniter\Model) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-28 01:34:58 --> Access level to App\Models\AbsensiModel::$db must be protected (as in class CodeIgniter\Model) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-28 01:34:59 --> Access level to App\Models\AbsensiModel::$db must be protected (as in class CodeIgniter\Model) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-28 08:18:49 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#1 C:\xampp\htdocs\tpq\app\Controllers\Home.php(19): view('pages/home', Array)
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-09-28 08:19:17 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#1 C:\xampp\htdocs\tpq\app\Controllers\Home.php(19): view('pages/home', Array)
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-09-28 08:19:48 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#1 C:\xampp\htdocs\tpq\app\Controllers\Home.php(19): view('pages/home', Array)
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-09-28 08:43:26 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\tpq\app\Views\pages\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-28 08:43:42 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\tpq\app\Views\pages\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-28 08:57:57 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\tpq\app\Views\pages\home.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-28 08:58:53 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\tpq\app\Views\pages\home.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-28 09:12:08 --> Undefined variable: count
+#0 C:\xampp\htdocs\tpq\app\Views\pages\home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-28 09:12:55 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#1 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-09-28 09:13:12 --> Trying to get property 'id_ust' of non-object
+#0 C:\xampp\htdocs\tpq\app\Views\pages\home.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-28 09:13:13 --> Trying to get property 'id_ust' of non-object
+#0 C:\xampp\htdocs\tpq\app\Views\pages\home.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-28 09:20:24 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\tpq\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#2 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-28 09:28:59 --> Undefined property: stdClass::$shif_pagi
+#0 C:\xampp\htdocs\tpq\app\Views\pages\home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-28 09:37:30 --> Array to string conversion
+#0 C:\xampp\htdocs\tpq\app\Views\pages\home.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-28 09:37:38 --> Array to string conversion
+#0 C:\xampp\htdocs\tpq\app\Views\pages\home.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-28 09:38:05 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\tpq\app\Views\pages\home.php(87): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-28 09:38:15 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\tpq\app\Views\pages\home.php(87): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-28 09:38:34 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\tpq\app\Views\pages\home.php(87): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\tpq\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tpq\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\tpq\app\Controllers\Home.php(20): view('pages/home', Array)
+#4 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

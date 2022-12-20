@@ -1,0 +1,27 @@
+CRITICAL - 2021-09-06 07:25:25 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\tpq\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tpq\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\tpq\app\Models\AbsensiModel.php(62): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 C:\xampp\htdocs\tpq\app\Models\AbsensiModel.php(67): App\Models\AbsensiModel->checkAbsensiHariIni()
+#4 C:\xampp\htdocs\tpq\app\Controllers\Dashboard.php(28): App\Models\AbsensiModel->tulisAbsen()
+#5 C:\xampp\htdocs\tpq\app\Controllers\Dashboard.php(20): App\Controllers\Dashboard->tulisAbsen()
+#6 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-06 07:47:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`t1` (`id_ust`, `tanggal_absen`) VALUES ('1','2021-09-06'), ('5','2021-09-06'), ' at line 1
+#0 C:\xampp\htdocs\tpq\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ta...')
+#1 C:\xampp\htdocs\tpq\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\tpq\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\tpq\system\Database\BaseBuilder.php(2091): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\tpq\app\Models\AbsensiModel.php(83): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 C:\xampp\htdocs\tpq\app\Controllers\Dashboard.php(28): App\Models\AbsensiModel->tulisAbsen()
+#6 C:\xampp\htdocs\tpq\app\Controllers\Dashboard.php(20): App\Controllers\Dashboard->tulisAbsen()
+#7 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}

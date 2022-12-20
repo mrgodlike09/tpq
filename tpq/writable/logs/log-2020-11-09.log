@@ -1,0 +1,8 @@
+CRITICAL - 2020-11-09 04:06:58 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\tpq\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('absen/doAbsen')
+#1 C:\xampp\htdocs\tpq\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('absen/doAbsen')
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,32 @@
+CRITICAL - 2021-07-31 08:51:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+#0 C:\xampp\htdocs\tpq\app\Controllers\Absen.php(20): App\Models\AbsensiModel->getAbsensi()
+#1 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Absen->index()
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-31 08:51:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+#0 C:\xampp\htdocs\tpq\app\Controllers\Absen.php(20): App\Models\AbsensiModel->getAbsensi()
+#1 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Absen->index()
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-31 08:52:54 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\tpq\app\Controllers\Absen.php(20): App\Models\AbsensiModel->getAbsensi()
+#1 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Absen->index()
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-31 08:52:55 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\tpq\app\Controllers\Absen.php(20): App\Models\AbsensiModel->getAbsensi()
+#1 C:\xampp\htdocs\tpq\system\CodeIgniter.php(918): App\Controllers\Absen->index()
+#2 C:\xampp\htdocs\tpq\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#3 C:\xampp\htdocs\tpq\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tpq\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tpq\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

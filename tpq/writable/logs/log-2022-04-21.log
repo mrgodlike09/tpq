@@ -1,0 +1,3 @@
+CRITICAL - 2022-04-21 13:06:41 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
